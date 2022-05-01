@@ -13,9 +13,9 @@ V免签(PHP) 是基于Thinkphp5.1 + mysql 实现的一套免签支付程序，�
  + 支持监听店员收款信息，可使用支付宝微信小号/模拟器挂机，方便IOS用户
  + 免root，免xp框架，不修改支付宝/微信客户端，防封更安全
  
-> 如果您不熟悉PHP环境的配置，您可以使用Java版本的服务端（ https://github.com/szvone/Vmq ）
+> 如果您不熟悉PHP环境的配置，您可以使用Java版本的服务端（ https://github.com/haibinml/Vmq ）
 
-> 监控端的开源地址位于： https://github.com/szvone/VmqApk
+> 监控端的开源地址位于： https://github.com/haibinml/VmqApk
 
 > V免签的运行环境为PHP版本>=5.6。
 
@@ -214,7 +214,7 @@ V免签为完全开源项目，开源项目意味着作者没有任何收入来�
 V免签遵循 MIT License 开源协议发布，并提供免费使用，请勿用于非法用途。
 
 
-版权所有Copyright © 2019 by vone (http://szvone.cn)
+版权所有Copyright © 2019 by vone (http://haibinml.cn)
 
 All rights reserved。
 
