@@ -107,11 +107,11 @@ class Index
         if (!Session::has("admin")){
             return json($this->getReturn(-1,"没有登录"));
         }
-        $ver = $this->getCurl("https://raw.githubusercontent.com/szvone/vmqphp/master/ver");
+        $ver = $this->getCurl("https://raw.githubusercontent.com/haibinml/vmqphp/master/ver");
         $ver = explode("|",$ver);
 
         if (sizeof($ver)==2 && $ver[0]!=config("ver")){
-            return json($this->getReturn(1,"[v".$ver[0]."已于".$ver[1]."发布]","https://github.com/szvone/vmqphp"));
+            return json($this->getReturn(1,"[v".$ver[0]."已于".$ver[1]."发布]","https://github.com/haibinml/vmqphp"));
         }else{
             return json($this->getReturn(0,"程序是最新版"));
         }

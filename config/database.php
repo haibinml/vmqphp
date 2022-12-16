@@ -17,9 +17,9 @@ return [
     // 数据库名
     'database'        => 'vmq',
     // 用户名
-    'username'        => 'root',
+    'username'        => 'vmq',
     // 密码
-    'password'        => 'root',
+    'password'        => 'vmq',
     // 端口
     'hostport'        => '3306',
     // 连接dsn
